@@ -1,5 +1,5 @@
 
-def using_push(arr, str)
+def using_push(array, str)
   array.push(str)
 end
 
@@ -12,37 +12,37 @@ def using_pop(array)
 end
 
 def pop_with_args(array, amt)
-  return arr.pop(amt)
+  return array.pop(amt)
 end
 
-def using_shift(arr)
-  return arr.shift()
+def using_shift(array)
+  return array.shift()
 end
 
-def shift_with_args(arr, amt)
-  return arr.shift(amt)
+def shift_with_args(array, amt)
+  return array.shift(amt)
 end
 
 def using_concat(arr1, arr2)
   arr1.concat(arr2)
 end
 
-def using_insert(arr, element)
-  arr1.insert(4, element)
+def using_insert(array, element)
+  array.insert(4, element)
 end
 
-def using_uniq(arr)
-  arr.uniq()
+def using_uniq(array)
+  array.uniq()
 end
 
-def using_flatten(arr)
-  return arr.flatten()
+def using_flatten(array)
+  return array.flatten()
 end
 
-def using_delete(arr, str)
-    arr.delete(str)
+def using_delete(array, str)
+    array.delete(str)
 end
 
-def using_delete_at(arr, index)
-  arr.delete_at(index)
+def using_delete_at(array, index)
+  array.delete_at(index)
 end
